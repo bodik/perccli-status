@@ -30,7 +30,7 @@ import sys
 from argparse import ArgumentParser
 
 
-__version__ = "0.1"
+__version__ = "0.2"
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
 
