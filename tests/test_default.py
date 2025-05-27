@@ -3,20 +3,28 @@
 from pathlib import Path
 from unittest.mock import Mock, patch
 
+import pytest
+
 from perccli_status import main as perccli_status_main
 
 
-TESTS_DIR = Path(__file__).resolve().parent
+@pytest.fixture(autouse=True)
+def patch_shutil_which():
+    """patch shutil which"""
+
+    with patch("shutil.which", Mock(return_value="/usr/bin/dummy")):
+        yield
 
 
 def mock_perccli_commands(outputs):
     """mock factory"""
 
+    tests_dir = Path(__file__).resolve().parent
     return patch(
         "subprocess.check_output",
         Mock(
             side_effect=[
-                Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8") for item in outputs
+                Path(f"{tests_dir}/{item}").read_text(encoding="utf-8") for item in outputs
             ]
         ),
     )
