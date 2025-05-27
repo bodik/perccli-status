@@ -1,0 +1,1008 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.2313.0000.0000 Mar 07, 2023",
+		"Operating system" : "Linux 6.12.27-amd64",
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "Show Drive Information Succeeded."
+	},
+	"Response Data" : {
+		"Drive /c0/e64/s0" : [
+			{
+				"EID:Slt" : "64:0",
+				"DID" : 0,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s0 - Detailed Information" : {
+			"Drive /c0/e64/s0 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s0 Device attributes" : {
+				"SN" : "xxxxxxxL",
+				"Manufacturer Id" : "HGST    ",
+				"Model Number" : "HUH7xxxxxxxxx00 ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000Cxxxxxxxx81B",
+				"Firmware Revision" : "NS08",
+				"Firmware Release Number" : "N/A",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s0 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:0",
+				"Enclosure position" : "1",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000cca294256819"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 48 55 48 37 32 31 32 31 32 41 4c 35 32 30 30 20 4e 53 30 38 44 35 47 4e 4b 53 30 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 "
+		},
+		"Drive /c0/e64/s1" : [
+			{
+				"EID:Slt" : "64:1",
+				"DID" : 1,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s1 - Detailed Information" : {
+			"Drive /c0/e64/s1 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s1 Device attributes" : {
+				"SN" : "xxxxxxxL",
+				"Manufacturer Id" : "HGST    ",
+				"Model Number" : "HUH721212AL5200 ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000CCA29423AE83",
+				"Firmware Revision" : "NS08",
+				"Firmware Release Number" : "N/A",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s1 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:1",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000cca29423ae81"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 48 55 48 37 32 31 32 31 32 41 4c 35 32 30 30 20 4e 53 30 38 44 35 47 4d 4d 41 41 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 "
+		},
+		"Drive /c0/e64/s2" : [
+			{
+				"EID:Slt" : "64:2",
+				"DID" : 2,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s2 - Detailed Information" : {
+			"Drive /c0/e64/s2 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s2 Device attributes" : {
+				"SN" : "xxxNNVYL",
+				"Manufacturer Id" : "HGST    ",
+				"Model Number" : "HUH721212AL5200 ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000CCA29425970F",
+				"Firmware Revision" : "NS08",
+				"Firmware Release Number" : "N/A",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s2 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:2",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000cca29425970d"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 48 55 48 37 32 31 32 31 32 41 4c 35 32 30 30 20 4e 53 30 38 44 35 47 4e 4e 56 59 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 "
+		},
+		"Drive /c0/e64/s3" : [
+			{
+				"EID:Slt" : "64:3",
+				"DID" : 3,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s3 - Detailed Information" : {
+			"Drive /c0/e64/s3 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 33C (91.40 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s3 Device attributes" : {
+				"SN" : "xxxMMM5L",
+				"Manufacturer Id" : "HGST    ",
+				"Model Number" : "HUH721212AL5200 ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000CCA29423B2CB",
+				"Firmware Revision" : "NS08",
+				"Firmware Release Number" : "N/A",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s3 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:3",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000cca29423b2c9"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 48 55 48 37 32 31 32 31 32 41 4c 35 32 30 30 20 4e 53 30 38 44 35 47 4d 4d 4d 35 4c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 "
+		},
+		"Drive /c0/e64/s4" : [
+			{
+				"EID:Slt" : "64:4",
+				"DID" : 4,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s4 - Detailed Information" : {
+			"Drive /c0/e64/s4 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s4 Device attributes" : {
+				"SN" : "ZRT1MCJ1",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F372569C",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s4 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:4",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f372569d"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 43 4a 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s5" : [
+			{
+				"EID:Slt" : "64:5",
+				"DID" : 5,
+				"State" : "GHS",
+				"DG" : "-",
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s5 - Detailed Information" : {
+			"Drive /c0/e64/s5 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s5 Device attributes" : {
+				"SN" : "ZRT1M449",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F37248D8",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s5 Policies/Settings" : {
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f37248d9"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 34 34 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s5 Hot Spare Information" : {
+			"Type" : "Global Hot Spare",
+			"Enclosure Affinity" : "No",
+			"Revertible" : "Yes"
+		},
+		"Drive /c0/e64/s6" : [
+			{
+				"EID:Slt" : "64:6",
+				"DID" : 6,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s6 - Detailed Information" : {
+			"Drive /c0/e64/s6 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s6 Device attributes" : {
+				"SN" : "ZRT1MCB8",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F3725C3C",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s6 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:5",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f3725c3d"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 43 42 38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s7" : [
+			{
+				"EID:Slt" : "64:7",
+				"DID" : 7,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s7 - Detailed Information" : {
+			"Drive /c0/e64/s7 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 33C (91.40 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s7 Device attributes" : {
+				"SN" : "ZRT1M6AB",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F371DF50",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s7 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:6",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f371df51"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 36 41 42 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s8" : [
+			{
+				"EID:Slt" : "64:8",
+				"DID" : 8,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s8 - Detailed Information" : {
+			"Drive /c0/e64/s8 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s8 Device attributes" : {
+				"SN" : "ZRT1M3MM",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F3725144",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s8 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:7",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f3725145"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 33 4d 4d 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s9" : [
+			{
+				"EID:Slt" : "64:9",
+				"DID" : 9,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s9 - Detailed Information" : {
+			"Drive /c0/e64/s9 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s9 Device attributes" : {
+				"SN" : "ZRT1M4CM",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F372407C",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s9 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:8",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f372407d"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 34 43 4d 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s10" : [
+			{
+				"EID:Slt" : "64:10",
+				"DID" : 10,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s10 - Detailed Information" : {
+			"Drive /c0/e64/s10 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s10 Device attributes" : {
+				"SN" : "ZRT1M3TF",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F3724E5C",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s10 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:9",
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f3724e5d"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 33 54 46 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s11" : [
+			{
+				"EID:Slt" : "64:11",
+				"DID" : 11,
+				"State" : "GHS",
+				"DG" : "-",
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"Drive /c0/e64/s11 - Detailed Information" : {
+			"Drive /c0/e64/s11 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e64/s11 Device attributes" : {
+				"SN" : "ZRT1M589",
+				"Manufacturer Id" : "SEAGATE ",
+				"Model Number" : "ST12000NM006J   ",
+				"NAND Vendor" : "NA",
+				"WWN" : "5000C500F3720C9C",
+				"Firmware Revision" : "PSLB",
+				"Firmware Release Number" : "1104FF0B",
+				"Raw size" : "10.692 TB [0x558a00000 Sectors]",
+				"Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Non Coerced size" : "10.691 TB [0x558900000 Sectors]",
+				"Device Speed" : "12.0Gb/s",
+				"Link Speed" : "12.0Gb/s",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 x8"
+			},
+			"Drive /c0/e64/s11 Policies/Settings" : {
+				"Enclosure position" : "0",
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"FDE Type" : "None",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Sanitize Support" : "CryptoErase",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Multipath" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x5000c500f3720c9d"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "12.0Gb/s",
+						"SAS address" : "0x0"
+					}
+				]
+			},
+			"Inquiry Data" : "00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 53 54 31 32 30 30 30 4e 4d 30 30 36 4a 20 20 20 50 53 4c 42 5a 52 54 31 4d 35 38 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 "
+		},
+		"Drive /c0/e64/s11 Hot Spare Information" : {
+			"Type" : "Global Hot Spare",
+			"Enclosure Affinity" : "No",
+			"Revertible" : "Yes"
+		}
+	}
+}
+]
+}
+

@@ -1,7 +1,6 @@
 """perccli_status tests"""
 
 from pathlib import Path
-from subprocess import CompletedProcess
 from unittest.mock import Mock, patch
 
 from perccli_status import main as perccli_status_main
@@ -10,86 +9,74 @@ from perccli_status import main as perccli_status_main
 TESTS_DIR = Path(__file__).resolve().parent
 
 
-def test_run():
-    """test run"""
+def mock_perccli_commands(outputs):
+    """mock factory"""
 
-    percclimock = Mock(
-        side_effect=[
-            CompletedProcess(
-                args=[],
-                returncode=0,
-                stdout=Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8"),
-            )
-            for item in [
-                "output_8.4.0.22_controllers_ok.json",
-                "output_8.4.0.22_vdisks_ok.json",
-                "output_8.4.0.22_pdisks_ok.json",
+    return patch(
+        "subprocess.check_output",
+        Mock(
+            side_effect=[
+                Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8") for item in outputs
             ]
-        ]
+        ),
     )
 
-    with patch("subprocess.run", percclimock):
+
+def test_run_v8():
+    """test run"""
+
+    mock_outputs = [
+        "output_8.4.0.22_version.txt",
+        "output_8.4.0.22_controllers_ok.json",
+        "output_8.4.0.22_vdisks_ok.json",
+        "output_8.4.0.22_pdisks_ok.json",
+    ]
+
+    with mock_perccli_commands(mock_outputs):
         ret = perccli_status_main([])
         assert ret == 0
 
-
-def test_run_nagios():
-    """test run"""
-
-    percclimock = Mock(
-        side_effect=[
-            CompletedProcess(
-                args=[],
-                returncode=0,
-                stdout=Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8"),
-            )
-            for item in [
-                "output_8.4.0.22_controllers_ok.json",
-                "output_8.4.0.22_vdisks_ok.json",
-                "output_8.4.0.22_pdisks_ok.json",
-            ]
-        ]
-    )
-
-    with patch("subprocess.run", percclimock):
+    with mock_perccli_commands(mock_outputs):
         ret = perccli_status_main(["--nagios"])
         assert ret == 0
 
+    mock_outputs = [
+        "output_8.4.0.22_version.txt",
+        "nojson.txt",
+        "nojson.txt",
+        "nojson.txt",
+    ]
 
-def test_jsonfail():
-    """test err json"""
-
-    percclimock = Mock(
-        return_value=CompletedProcess(
-            args=[],
-            returncode=0,
-            stdout="notjson",
-        )
-    )
-
-    with patch("subprocess.run", percclimock):
+    with mock_perccli_commands(mock_outputs):
         ret = perccli_status_main([])
         assert ret == 2
 
 
-def test_fails():
-    """test error detections"""
+def test_run_v7():
+    """test run"""
 
-    percclimock = Mock(
-        side_effect=[
-            CompletedProcess(
-                args=[],
-                returncode=0,
-                stdout=Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8"),
-            )
-            for item in [
-                "output_8.4.0.22_controllers_fail.json",
-                "output_8.4.0.22_vdisks_fail.json",
-                "output_8.4.0.22_pdisks_fail.json",
-            ]
-        ]
-    )
+    mock_outputs = [
+        "output_7.2313_version.txt",
+        "output_7.2313_controllers_ok.json",
+        "output_7.2313_vdisks_ok.json",
+        "output_7.2313_pdisks_ok.json",
+    ]
 
-    with patch("subprocess.run", percclimock):
+    with mock_perccli_commands(mock_outputs):
+        ret = perccli_status_main([])
+        assert ret == 0
+
+    with mock_perccli_commands(mock_outputs):
+        ret = perccli_status_main(["--nagios"])
+        assert ret == 0
+
+    mock_outputs = [
+        "output_7.2313_version.txt",
+        "nojson.txt",
+        "nojson.txt",
+        "nojson.txt",
+    ]
+
+    with mock_perccli_commands(mock_outputs):
         ret = perccli_status_main([])
         assert ret == 2

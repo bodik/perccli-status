@@ -1,0 +1,203 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"CLI Version" : "007.2313.0000.0000 Mar 07, 2023",
+		"Operating system" : "Linux 6.12.27-amd64",
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "None"
+	},
+	"Response Data" : {
+		"/c0/v0" : [
+			{
+				"DG/VD" : "0/0",
+				"TYPE" : "RAID6",
+				"State" : "Optl",
+				"Access" : "RW",
+				"Consist" : "Yes",
+				"Cache" : "RWBD",
+				"Cac" : "-",
+				"sCC" : "OFF",
+				"Size" : "85.535 TB",
+				"Name" : ""
+			}
+		],
+		"PDs for VD 0" : [
+			{
+				"EID:Slt" : "64:0",
+				"DID" : 0,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:1",
+				"DID" : 1,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:2",
+				"DID" : 2,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:3",
+				"DID" : 3,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HUH721212AL5200 ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:4",
+				"DID" : 4,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:6",
+				"DID" : 6,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:7",
+				"DID" : 7,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:8",
+				"DID" : 8,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:9",
+				"DID" : 9,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			},
+			{
+				"EID:Slt" : "64:10",
+				"DID" : 10,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "10.691 TB",
+				"Intf" : "SAS",
+				"Med" : "HDD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "ST12000NM006J   ",
+				"Sp" : "U",
+				"Type" : "-"
+			}
+		],
+		"VD0 Properties" : {
+			"Strip Size" : "256 KB",
+			"Number of Blocks" : 183685349376,
+			"Span Depth" : 1,
+			"Number of Drives Per Span" : 10,
+			"Write Cache(initial setting)" : "WriteBack",
+			"Disk Cache Policy" : "Disk's Default",
+			"Encryption" : "None",
+			"Data Protection" : "None",
+			"Active Operations" : "None",
+			"Exposed to OS" : "Yes",
+			"OS Drive Name" : "/dev/sda",
+			"Creation Date" : "03-01-2025",
+			"Creation Time" : "10:31:52 AM",
+			"Emulation type" : "default",
+			"Cachebypass size" : "Cachebypass-64k",
+			"Cachebypass Mode" : "Cachebypass Intelligent",
+			"Is LD Ready for OS Requests" : "Yes",
+			"SCSI NAA Id" : "62cea7f073cb7f002f0a79184ea5a80f",
+			"Unmap Enabled" : "N/A"
+		}
+	}
+}
+]
+}
+
