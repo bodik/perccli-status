@@ -21,9 +21,9 @@ def test_run():
                 stdout=Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8"),
             )
             for item in [
-                "output-ok-controllers.json",
-                "output-ok-vdisks.json",
-                "output-ok-disks.json",
+                "output_8.4.0.22_controllers_ok.json",
+                "output_8.4.0.22_vdisks_ok.json",
+                "output_8.4.0.22_pdisks_ok.json",
             ]
         ]
     )
@@ -44,9 +44,9 @@ def test_run_nagios():
                 stdout=Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8"),
             )
             for item in [
-                "output-ok-controllers.json",
-                "output-ok-vdisks.json",
-                "output-ok-disks.json",
+                "output_8.4.0.22_controllers_ok.json",
+                "output_8.4.0.22_vdisks_ok.json",
+                "output_8.4.0.22_pdisks_ok.json",
             ]
         ]
     )
@@ -83,9 +83,9 @@ def test_fails():
                 stdout=Path(f"{TESTS_DIR}/{item}").read_text(encoding="utf-8"),
             )
             for item in [
-                "output-fail-controllers.json",
-                "output-fail-vdisks.json",
-                "output-fail-disks.json",
+                "output_8.4.0.22_controllers_fail.json",
+                "output_8.4.0.22_vdisks_fail.json",
+                "output_8.4.0.22_pdisks_fail.json",
             ]
         ]
     )
