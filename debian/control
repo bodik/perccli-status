@@ -10,8 +10,8 @@ Homepage: https://github.com/bodik/perccli-status
 
 Package: perccli-status
 Architecture: any
-Depends: perccli2, daemon
+Depends: perccli | perccli2, daemon
 Description:  The perccli-status software is a query tool to access the running
  configuration and status of PERC SAS HBAs.
  .
- It uses perccli2 proprietary command line tool.
+ It uses perccli proprietary command line tool.
