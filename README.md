@@ -8,6 +8,7 @@ Nagios/Opsview plugin to check status of PowerEdge RAID Controller, mimics
 
 * Debian 12 Bookworm, PERC H965i, perccli2 8.4.0.22
 * Debian 13 Trixie, PERC H740P, perccli64 7.2313
+* Debian 13 Trixie, PERC H730P, perccli64 7.2616
 
 
 ## Install
