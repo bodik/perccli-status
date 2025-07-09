@@ -235,12 +235,27 @@ class Perccli7Manager:
 
         return exit_code, all_vdisks
 
+    def _phys_disks_data(self):  # pragma: nocover
+        """handle different flavors of perccli64 7.x"""
+
+        # R540, H740P, perccli64 007.2313.0000.0000
+        disk_data = json_command([self.perccli_path, "/call/eall/sall", "show", "all", "j"])
+        if disk_data["Controllers"][0]["Command Status"]["Status"] == "Success":
+            return disk_data
+
+        # R430, H730P, perccli64 007.2616.0000.0000
+        disk_data = json_command([self.perccli_path, "/call/sall", "show", "all", "j"])
+        if disk_data["Controllers"][0]["Command Status"]["Status"] == "Success":
+            return disk_data
+
+        raise JsonCommandError("_phys_disks_data failed")
+
     def check_phys_disks(self):
         """check physical disks"""
 
         try:
-            disk_data = json_command([self.perccli_path, "/call/eall/sall", "show", "all", "j"])
-        except JsonCommandError:
+            disk_data = self._phys_disks_data()
+        except (JsonCommandError, KeyError):
             return ExitCode.CRITICAL, []
 
         all_disks = []
@@ -250,8 +265,8 @@ class Perccli7Manager:
             resp = controller["Response Data"]
 
             for name, pdisk in resp.items():
-                if not re.match(r"^Drive /c[0-9]+/e[0-9]+/s[0-9]+$", name):
-                    # skip detail element
+                if not re.match(r"^Drive /c[0-9]+(/e[0-9]+)?/s[0-9]+$", name):
+                    # skip any detail element
                     continue
 
                 pinfo = PdiskInfo(
