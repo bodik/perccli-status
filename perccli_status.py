@@ -34,7 +34,7 @@ from argparse import ArgumentParser
 from dataclasses import dataclass
 
 
-__version__ = "0.2"
+__version__ = "0.3"
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
 
